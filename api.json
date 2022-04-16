@@ -1,0 +1,38 @@
+[
+    {
+        "precio": 6500,
+        "id": 1,
+        "title": "Days Gone",
+        "thumbnailUrl": "https://image.api.playstation.com/vulcan/img/rnd/202011/1204/wYL4v2r8uMQFvVTJlfuj8ICk.png"
+    },
+    {
+        "precio": 4300,
+        "id": 2,
+        "title": "Red Dead redemption 2",
+        "thumbnailUrl": "https://image.api.playstation.com/cdn/UP1004/CUSA03041_00/Hpl5MtwQgOVF9vJqlfui6SDB5Jl4oBSq.png"
+    },
+    {
+        "precio": 6000,
+        "id": 3,
+        "title": "Battlefield™ V",
+        "thumbnailUrl": "https://image.api.playstation.com/gs2-sec/appkgo/prod/CUSA08670_00/2/i_bd313fa35615ab7418c1f552f24bc3af1a93992965e4729df39262ab37ed8880/i/icon0_01.png"
+    },
+    {
+        "precio": 5000,
+        "id": 4,
+        "title": "GTA V",
+        "thumbnailUrl": "https://media-rockstargames-com.akamaized.net/tina-uploads/posts/9k922a7212kao3/59a05cd4bc90a814ee52dceb30d70de2c1946953.jpg"
+    },
+    {
+        "precio": 7500,
+        "id": 5,
+        "title": "FIFA 21",
+        "thumbnailUrl": "https://image.api.playstation.com/vulcan/img/rnd/202101/1315/1zfTY2JW41HdDTGJC00Go4nk.png"
+    },
+    {
+        "precio": 6000,
+        "id": 6,
+        "title": "UFC 4",
+        "thumbnailUrl": "https://media.contentapi.ea.com/content/dam/ufc/ufc-4/images/2020/05/ufc4-reveal.png.adapt.crop1x1.320w.png"
+    }
+]
