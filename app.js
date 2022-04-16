@@ -45,7 +45,7 @@ const detectarBotones = (data) => {
                 producto.cantidad = carrito[producto.id].cantidad + 1
             }
             carrito[producto.id] = { ...producto }
-            // console.log('carrito', carrito)
+            
             pintarCarrito()
         })
     })
@@ -55,7 +55,7 @@ const items = document.querySelector('#items')
 
 const pintarCarrito = () => {
 
-    //pendiente innerHTML
+    
     items.innerHTML = ''
 
     const template = document.querySelector('#template-carrito').content
@@ -69,7 +69,7 @@ const pintarCarrito = () => {
         template.querySelector('span').textContent = producto.precio * producto.cantidad
         
         //botones
-        template.querySelector('.btn-info').dataset.id = producto.id
+        template.querySelector('.btn-primary').dataset.id = producto.id
         template.querySelector('.btn-danger').dataset.id = producto.id
 
         const clone = template.cloneNode(true)
@@ -121,7 +121,7 @@ const pintarFooter = () => {
 }
 
 const accionBotones = () => {
-    const botonesAgregar = document.querySelectorAll('#items .btn-info')
+    const botonesAgregar = document.querySelectorAll('#items .btn-primary')
     const botonesEliminar = document.querySelectorAll('#items .btn-danger')
 
     // console.log(botonesAgregar)
